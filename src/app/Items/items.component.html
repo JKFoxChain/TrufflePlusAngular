@@ -1,0 +1,13 @@
+<div>
+    <ul *ngFor="let adopter of adopters; let i = index">
+        <li>
+            Index: {{i}} Adopter: {{adopter}}
+        </li>
+        <button *ngIf="checkAvailable(i)" (click)="adopt()">
+                Adopt
+        </button>
+    </ul>
+    <span>
+        Current Address: {{ account }}
+    </span>
+</div>

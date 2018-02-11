@@ -4,5 +4,15 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  artifacts: {
+    adoptionArtifact: {
+      name: 'Adoption.json',
+      networkId: '1995'
+    }
+  },
+
+  chainUrl: 'http://localhost',
+  rpcPort: '8545'
 };
