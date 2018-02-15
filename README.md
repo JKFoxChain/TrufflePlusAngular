@@ -12,4 +12,5 @@ In order to use web3.js to interact smart contract, metamask is required in orde
 ### Install NPM
 Check link https://www.npmjs.com/get-npm to install NPM. Please find introduction of NPM usage here https://github.com/QingyangKong/knowledge-dump/blob/master/Specifications/Javascript/node%20js/NPM%20Basic%20commands.md. 
 ### Use template
-Download the project and run `npm install`. 
+Download the project and run `npm install`.   
+Run `npm start` to run the example.
